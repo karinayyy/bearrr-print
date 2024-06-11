@@ -1,5 +1,6 @@
 [build]
-  functions = "email-backend/functions"
+  functions = "functions"
+  publish = "public"
 
 [[redirects]]
   from = "/api/*"
