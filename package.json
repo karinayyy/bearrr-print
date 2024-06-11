@@ -2,7 +2,7 @@
   "name": "bearrr-print-com",
   "version": "1.0.0",
   "private": true,
-  "description": "Full stack project for Bearrr Print",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

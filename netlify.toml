@@ -1,6 +1,7 @@
 [build]
-  functions = "functions"
-  publish = "public"
+  command = "npm run build"
+  functions = "email-backend/functions"
+  publish = "build"
 
 [[redirects]]
   from = "/api/*"
