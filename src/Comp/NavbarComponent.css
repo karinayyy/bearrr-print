@@ -1,0 +1,47 @@
+/* Light-Themed Navbar Styles */
+.navbar-light-custom {
+    background-color: #ffffff; /* White background */
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #e3e3e3; /* Light grey border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.navbar-light-custom .navbar-brand img {
+    height: 40px; /* Adjust logo height */
+    margin-right: 20px;
+}
+
+.navbar-light-custom .navbar-toggler {
+    border: none;
+    outline: none;
+    color: #007bff; /* Blue color for toggle icon */
+}
+
+.navbar-light-custom .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-light-custom .navbar-nav .nav-link-custom {
+    color: #333; /* Dark text color */
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-light-custom .navbar-nav .nav-link-custom:hover,
+.navbar-light-custom .navbar-nav .nav-link-custom:focus {
+    color: #007bff; /* Blue on hover */
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+    border-radius: 5px;
+}
+
+.navbar-light-custom .navbar-nav .nav-link-custom.active {
+    color: #007bff;
+}
+
+@media (max-width: 991px) {
+    .navbar-light-custom .navbar-nav {
+        text-align: center;
+    }
+}

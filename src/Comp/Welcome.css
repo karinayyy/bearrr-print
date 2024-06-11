@@ -1,0 +1,19 @@
+/* Welcome Container */
+.welcome-container {
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding for spacing */
+    background-color: #fcfbf9; /* Background color */
+    color: #000;
+}
+
+.welcome-container h1 {
+    font-size: 3rem; /* Larger heading size */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.welcome-container p {
+    font-size: 1.5rem; /* Larger paragraph size */
+    color: #000;
+    line-height: 1.5;
+}
